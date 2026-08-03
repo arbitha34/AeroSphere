@@ -1,0 +1,39 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: aerosphere-backend
+
+  datasource:
+    url: jdbc:h2:file:./data/aerosphere;DB_CLOSE_ON_EXIT=FALSE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+
+aerosphere:
+  cors:
+    allowed-origins: http://localhost:5173,http://127.0.0.1:5173
+  jwt:
+    # Demo-only secret. Replace with an injected env var / secrets manager before any real deployment.
+    secret: "aerosphere-dev-secret-key-change-me-before-production-use-1234567890"
+    expiration-ms: 3600000     # 1 hour access token
+    refresh-expiration-ms: 604800000  # 7 days refresh token
+
+logging:
+  level:
+    com.aerosphere.backend: INFO
