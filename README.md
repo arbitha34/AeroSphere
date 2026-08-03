@@ -1,8 +1,8 @@
-# AeroSphere - Airport Operations Management System
+# ✈️ AeroSphere - Airport Operations Management System
 
-AeroSphere is a full-stack Airport Operations Management System developed to streamline airport operations through a centralized platform. It enables efficient management of flights, aircraft, passengers, baggage, gates, runways, and maintenance records with secure authentication and an intuitive dashboard.
+AeroSphere is a **full-stack Airport Operations Management System** designed to simplify and centralize airport operations through a modern, secure, and intuitive platform. It enables efficient management of flights, aircraft, passengers, baggage, gates, runways, and maintenance records while providing a responsive dashboard for monitoring airport activities.
 
-The application features a modern React-based frontend, a Spring Boot REST API backend, JWT authentication, and an H2 database to provide a responsive and scalable airport management solution.
+Built using **React 19**, **Spring Boot 3.3**, **Java 17**, and **H2 Database**, the application follows a modular architecture with JWT-based authentication, RESTful APIs, and a responsive Material UI interface, making it suitable for learning enterprise application development and modern full-stack practices.
 
 ---
 
@@ -29,7 +29,7 @@ The application features a modern React-based frontend, a Spring Boot REST API b
 - Live Departure Overview
 - Weather Widget
 
-### ✈ Flight Management
+### ✈️ Flight Management
 
 - View Flights
 - Search Flights
@@ -72,7 +72,7 @@ The application features a modern React-based frontend, a Spring Boot REST API b
 - Gate Assignment
 - CRUD Operations
 
-### 🛠 Maintenance Management
+### 🛠️ Maintenance Management
 
 - Maintenance Records
 - Aircraft Maintenance History
@@ -81,11 +81,11 @@ The application features a modern React-based frontend, a Spring Boot REST API b
 
 - User Profile
 - Application Settings
-- Theme Switching (Light/Dark)
+- Light & Dark Theme
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 ### Frontend
 
@@ -131,24 +131,7 @@ The application features a modern React-based frontend, a Spring Boot REST API b
 AeroSphere
 │
 ├── aerosphere-frontend
-│   ├── components
-│   ├── contexts
-│   ├── layouts
-│   ├── pages
-│   ├── routes
-│   ├── services
-│   ├── theme
-│   └── App.jsx
-│
 ├── aerosphere-backend
-│   ├── config
-│   ├── controller
-│   ├── entity
-│   ├── repository
-│   ├── security
-│   ├── service
-│   └── resources
-│
 └── README.md
 ```
 
@@ -169,7 +152,7 @@ cd aerosphere-backend
 mvn spring-boot:run
 ```
 
-Backend runs at:
+Runs on:
 
 ```
 http://localhost:8080
@@ -185,7 +168,7 @@ npm install
 npm run dev
 ```
 
-Frontend runs at:
+Runs on:
 
 ```
 http://localhost:5173
@@ -203,16 +186,16 @@ Use any valid email address with the demo credentials configured in the applicat
 
 ## 📌 Modules
 
-- Authentication
-- Dashboard
-- Flight Management
-- Aircraft Management
-- Passenger Management
-- Baggage Tracking
-- Gate & Runway Management
-- Maintenance Management
-- Profile
-- Settings
+- 🔐 Authentication
+- 📊 Dashboard
+- ✈️ Flight Management
+- 🛫 Aircraft Management
+- 👥 Passenger Management
+- 🧳 Baggage Tracking
+- 🚪 Gate & Runway Management
+- 🛠️ Maintenance Management
+- 👤 Profile
+- ⚙️ Settings
 
 ---
 
@@ -221,36 +204,113 @@ Use any valid email address with the demo credentials configured in the applicat
 - JWT Authentication
 - Spring Security
 - BCrypt Password Encryption
-- Protected API Endpoints
-- Session Timeout Management
+- Protected REST APIs
+- Session Timeout Handling
 
 ---
 
-## 📷 Screenshots
+# 📸 Application Screenshots
 
-- Login
-- Dashboard
-- Flight Management
-- Aircraft Management
-- Passenger Management
-- Baggage Tracking
-- Gate & Runway Management
-- Profile
-- Settings
+## 🔐 Login Page
+
+> _Add login page screenshot here_
+
+```
+screenshots/login.png
+```
+
+---
+
+## 📊 Dashboard
+
+> _Add dashboard screenshot here_
+
+```
+screenshots/dashboard.png
+```
+
+---
+
+## ✈️ Flight Management
+
+> _Add flight management screenshot here_
+
+```
+screenshots/flights.png
+```
+
+---
+
+## 🛫 Aircraft Management
+
+> _Add aircraft management screenshot here_
+
+```
+screenshots/aircraft.png
+```
+
+---
+
+## 👥 Passenger Management
+
+> _Add passenger management screenshot here_
+
+```
+screenshots/passengers.png
+```
+
+---
+
+## 🧳 Baggage Tracking
+
+> _Add baggage tracking screenshot here_
+
+```
+screenshots/baggage.png
+```
+
+---
+
+## 🚪 Gate & Runway Management
+
+> _Add gate & runway management screenshot here_
+
+```
+screenshots/gates.png
+```
+
+---
+
+## 👤 Profile
+
+> _Add profile page screenshot here_
+
+```
+screenshots/profile.png
+```
+
+---
+
+## ⚙️ Settings
+
+> _Add settings page screenshot here_
+
+```
+screenshots/settings.png
+```
 
 ---
 
 ## 🚀 Future Enhancements
 
-- Frontend & Backend Live API Integration
+- Frontend & Backend API Integration
 - Role-Based Authorization
 - Refresh Token Authentication
-- Server-side Pagination
 - Notification Center
-- WebSocket Live Updates
 - Swagger API Documentation
-- Docker Deployment
+- Docker Support
 - CI/CD Pipeline
+- WebSocket Live Updates
 
 ---
 
@@ -273,7 +333,7 @@ Bachelor of Engineering (Computer Science and Engineering)
 - Git
 - GitHub
 
-GitHub: **https://github.com/arbitha34**
+**GitHub:** https://github.com/arbitha34
 
 ---
 
